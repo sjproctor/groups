@@ -83,3 +83,4 @@ production:
   database: groups_production
   username: groups
   password: <%= ENV['GROUPS_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>

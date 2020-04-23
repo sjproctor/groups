@@ -4,7 +4,14 @@ class Pairs extends Component{
   render(){
     return(
       <React.Fragment>
-        
+
+
+      <div></div>
+
+      <form></form>
+
+
+
       </React.Fragment>
     )
   }
