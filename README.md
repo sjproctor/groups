@@ -59,6 +59,6 @@ add content to app/views/index.html.erb
     sign_out_route: destroy_user_session_path
 }) %>
 ```
-add @import 'bootstrap' to app/assets/stylesheets/application.scss
+add `@import 'bootstrap'` to app/assets/stylesheets/application.scss
 
 modify config/initializers/devise.rb change config.sign_out_via = :delete to config.sign_out_via = :get
